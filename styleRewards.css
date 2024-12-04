@@ -12,6 +12,14 @@ nav img {
     width: 4vw;
 }
 
+header{
+    position: fixed;
+    top: 0;
+    background: white;
+    z-index: 10;
+    width: 100vw;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -83,18 +91,17 @@ ul{
 .left-container{
     position: fixed;
     top: 1;
-
     width: 40vw;
     height: 100vh;
     background: linear-gradient(0deg, rgb(29, 57, 50) 0%, rgb(10, 105, 75) 100%);
     color: white;
     margin: 0;
     padding: 50px;
+    overflow: hidden;
 }
 
 .right-container{
     width: 50vw;
     margin-left: 49vw;
     width: calc(100vw - 25vw); /* Ocupa el espacio restante */
-    overflow-y: auto; /* Habilita el scroll vertical */
 }
