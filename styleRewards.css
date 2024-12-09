@@ -403,8 +403,141 @@ ul{
     justify-content: center;
     margin-bottom: 20px;
   }
+
   .descargar-container img{
     height: 7vh;
     width: auto;
     margin-left: 10px;
   }
+
+  .conocemas-container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 900px;
+    padding: 20px;
+    background: #d9d9d9;
+    margin: 0 auto;
+  }
+
+  .conocemas-container img{
+    height: 30vh;
+  }
+
+  .textoconocemas {
+    width: 25vh;
+    height: auto;
+    display: block;
+    text-align: left;
+  }
+
+  .SBrewardsimg{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .SBrewardsimg img{
+    height: 25vh;
+  }
+
+
+
+
+
+  /* Footer */
+.footer {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 20px 15px;
+    text-align: center;
+  }
+  
+  .footer-enlaces {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-seccion {
+    text-align: left;
+  }
+  
+  .footer-seccion h3 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .footer-seccion ol {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-seccion ol li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-seccion ol li a {
+    text-decoration: none;
+    color: #494949;
+    font-size: 14px;
+  }
+  
+  .footer-seccion ol li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Redes Sociales */
+  .footer-redessociales {
+    margin-bottom: 20px;
+  }
+  
+  .footer-redessociales a {
+    font-size: 20px;
+    color: #333;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-redessociales a:hover {
+    color: #00754a;
+  }
+  
+  /* Enlaces Legales */
+  .footer-links {
+    font-size: 12px;
+    color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Derechos Reservados */
+  .footer-derechosreservados {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-enlaces {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+
