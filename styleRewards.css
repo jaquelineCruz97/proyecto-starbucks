@@ -168,14 +168,14 @@ ul{
     margin-bottom: 10px;
 }
 
-.gray-container{
+.tuscafes-container{
     max-width: 900px;
     padding: 20px;
     background: #d9d9d9;
     margin: 0 auto;
 }
 
-.gray-container h1 {
+.tuscafes-container h1 {
     margin-left: 30vh;;
     margin-right: 30vh;
     font-size: 1.5rem;
@@ -289,4 +289,122 @@ ul{
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+  }
+
+  .ordenaypaga-container{
+    max-width: 900px;
+    padding: 20px;
+    background: #d9d9d9;
+    margin: 0 auto;
+  }
+
+
+  .ordenaypaga-container1{
+    display: flex;
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #000;
+    margin-left: 5vh;
+}
+
+.ordenaypaga-container1 p{
+    width: 25vh;
+}
+.ordenaypaga-container1 img{
+    width: auto;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.estrella img{
+    height: 5vh;
+    margin-top: 7vh;
+}
+
+.ordenaypaga-container2{
+    display: flex;
+    position: relative;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #000;
+    margin-left: 5vh;
+}
+
+.ordenaypaga-container2 p{
+    width: 25vh;
+}
+.ordenaypaga-container2 img{
+    width: auto;
+    height: 20vh;
+    object-fit: cover;
+}
+
+.estrella2 img{
+    height: 5vh;
+    margin-top: 7vh;
+}
+
+
+
+
+
+
+
+.coleccionar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .texto-coleccionar {
+    max-width: 400px;
+    text-align: left;
+    width: 20vh;
+    margin-left: 15vh;
+  }
+  
+  .texto-coleccionar p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .imagen-coleccionar img {
+    width: 60vh;
+    height: auto;
+    margin-left: 0vh;
+  }
+
+  .unaexperiencia-container {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .unaexperiencia-container h1{
+    width: 60vh;
+    margin-left: 31vh;
+  }
+
+  .gifestrellas img{
+    width: 40vh;
+    height: auto;
+  }
+
+  .unaexperiencia-container p{
+    width: 70vh;
+    margin-left: 25vh;
+  }
+  .descargar-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .descargar-container img{
+    height: 7vh;
+    width: auto;
+    margin-left: 10px;
   }
