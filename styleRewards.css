@@ -88,6 +88,47 @@ ul{
     text-align: center;
 }
 
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline {
+  border: 2px solid #fff;
+  color: #fff;
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background: #fff;
+  color: #1e3932;
+}
+
+.btn-filled {
+  background: #fff;
+  color: #1e3932;
+  border: none;
+}
+
+.btn-filled:hover {
+  background: #ccc;
+}
+
+.imagenTelefono img {
+  margin-top: 20px;
+  width: 60vh;
+}
+
 /* Mitad derecha */
 .right-container{
     width: 50vw;
@@ -456,10 +497,9 @@ ul{
   
   .footer-enlaces {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    margin-bottom: 20px;
+    margin-right: 0vh;
+    margin-left: 0vh;
+
   }
   
   .footer-seccion {
@@ -483,28 +523,32 @@ ul{
   
   .footer-seccion ol li a {
     text-decoration: none;
-    color: #494949;
+    color: #bdbdbd;
     font-size: 14px;
   }
   
   .footer-seccion ol li a:hover {
     text-decoration: underline;
   }
-  
+  .footer2{
+    background-color: #fff;
+      border-top: 1px solid #ddd;
+      padding: 20px 15px;
+      text-align: center;
+  }
   /* Redes Sociales */
-  .footer-redessociales {
-    margin-bottom: 20px;
+  .social-media {
+    margin: 20px 0;
   }
   
-  .footer-redessociales a {
-    font-size: 20px;
-    color: #333;
+  .social-media .icon img {
+    width: 30px;
     margin: 0 10px;
-    text-decoration: none;
+    transition: transform 0.3s;
   }
   
-  .footer-redessociales a:hover {
-    color: #00754a;
+  .social-media .icon img:hover {
+    transform: scale(1.2);
   }
   
   /* Enlaces Legales */
