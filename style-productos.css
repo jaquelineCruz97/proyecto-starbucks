@@ -81,7 +81,7 @@ ul{
     color: white;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    height: auto;
     font-size: 20px;
     width: 100vw;
 }
@@ -89,16 +89,30 @@ ul{
 .contenidoproducto{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0vh;
+    margin: 0 auto; /* Centra horizontalmente */
     color: rgb(0, 0, 0);
-    justify-content: center;
+    justify-content: center; /* Centra los elementos internos dentro del contenedor */
+    align-items: center;
     font-size: 20px;
+    width: 110vh; /* Tamaño fijo */
 }
 
 .productos img{
     width: 30vh;
     height: auto;
+    flex-wrap: wrap; /* Para que sea responsivo */
 }
+
+.productos p{
+  width: 80vh; /* Tamaño fijo */
+  margin-left: 5vh;
+}
+
+.productos h1{
+  width: 80vh; /* Tamaño fijo */
+  margin-left: 5vh;
+}
+
 
  /* Footer */
  .footer {
@@ -222,3 +236,4 @@ ul{
   .footer-links a:hover {
     text-decoration: underline;
   }
+  
