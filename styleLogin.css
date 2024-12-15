@@ -118,31 +118,10 @@ ul{
 }
 
 
-
-
-
-
 .formulario{
-    max-width: 900px;
-    padding: 20px;
-    background: #d9d9d9;
-    margin: 0 auto;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.formulario{
+  max-width: 900px;
   display: flex;
-  background-color: #dadada;
+  background: #d9d9d9;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -164,12 +143,22 @@ label {
 }
 
 input {
+  background-color: #dadada;
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  border: 0px;
   font-size: 1rem;
   color: #555;
+  border: none; 
+  border-bottom: .5px solid #555; 
+  border-radius: 0; 
+}
+
+input:focus {
+  background-color: #dadada; 
+  color: #555; 
+  outline: none; 
+  border-bottom: 1px solid #08a73d; 
 }
 
 input::placeholder {
@@ -422,3 +411,127 @@ input::placeholder {
   .footer-links a:hover {
     text-decoration: underline;
   }
+
+
+
+
+
+
+  /* Pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .navbar {
+    flex-direction: column;
+    font-size: 16px;
+    align-items: flex-start;
+  }
+
+  .navbar-left {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .navbar-right {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .login-container {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .left-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .right-container {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .formulario {
+    width: 90%;
+    padding: 1rem;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  .forgot-password {
+    width: 100%;
+  }
+
+  .login-button {
+    width: 100%;
+  }
+
+  .unete {
+    flex-direction: column;
+  }
+
+  .unete img {
+    height: auto;
+    width: 80%;
+  }
+
+  .footer,
+  .footer2 {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
+
+/* Pantallas medianas (tablets) */
+@media (max-width: 900px) {
+
+  .navbar {
+    flex-direction: column;
+    font-size: 16px;
+    align-items: flex-start;
+  }
+
+  .navbar-left {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .navbar-right {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+
+  .left-container {
+    width: 0vw;
+  }
+
+  .right-container {
+    margin-left: 0vw;
+    width: 90vw;
+  }
+
+  .formulario {
+    width: 80%;
+  }
+
+  footer,
+  .footer2 {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}
