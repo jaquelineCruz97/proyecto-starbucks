@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleRegister.css">
+    <title>Registrare en nuestro programa de lealtad | Starbucks Rewards</title>
+  </head>
+  <body>
+    <header>
+        <navbar class="navbar">
+            <nav class="navbar-left">
+                <a href="index.html"><img src="https://i.postimg.cc/sXP5z3D7/starbucks-logo-1.png" alt="logo"></a>
+                <ul>
+                    <li><a href="menu.html">MENU</a></li>
+                    <li><a href="rewards.html">REWARDS</a></li>
+                </ul>
+            </nav>
+
+            <nav class="navbar-right">
+                <ul>
+                    <li><a class="a1" href="https://www.starbucks.com.mx/stores">Localizar tienda</a></li>
+                    <li><a class="a2" href="login.html">Inicia sesion</a></li>
+                </ul>
+            </nav>
+        </navbar>
+    </header>
+
+        <!--Contenido principal-->
+
+        <section class="register-container">
+            <!--Mitad izquierda-->
+            <section class="left-container">
+                <section class="ingresaATuCuenta">
+                    Registro
+            </section>
+            </section>
+            <!--Mitad derecha-->
+            <section class="right-container">
+                
+
+
+
+              <section class="formulario">
+               
+                <section class="form-container">
+                  <h2>Información personal <span class="obligatorio">(*) campos obligatorios</span></h2>
+                  <p>¡Regístrate y comienza a vivir la experiencia Starbucks Rewards™!</p>
+                  
+                  <form>
+                      <!-- Nombre -->
+                      <label for="nombre">Nombre(s)*</label>
+                      <input type="text" id="nombre" name="nombre" placeholder="Nombre(s)" required>
+          
+                      <!-- Apellido Paterno -->
+                      <label for="apellido-paterno">Apellido paterno*</label>
+                      <input type="text" id="apellido-paterno" name="apellido-paterno" placeholder="Apellido paterno" required>
+          
+                      <!-- Email -->
+                      <label for="email">Email*</label>
+                      <input type="email" id="email" name="email" placeholder="Email" required>
+          
+                      <!-- Confirmar Email -->
+                      <label for="confirmar-email">Confirmar Email*</label>
+                      <input type="email" id="confirmar-email" name="confirmar-email" placeholder="Confirmar Email" required>
+          
+                      <!-- Contraseña -->
+                      <label for="contrasena">Contraseña*</label>
+                      <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+          
+                      <!-- Confirmar Contraseña -->
+                      <label for="confirmar-contrasena">Confirmar contraseña*</label>
+                      <input type="password" id="confirmar-contrasena" name="confirmar-contrasena" placeholder="Confirmar contraseña" required>
+          
+                      <!-- Fecha de Nacimiento -->
+                      <h3>Fecha de Nacimiento <span class="opcional">(Opcional)</span></h3>
+                      <p>Agrega tu fecha de cumpleaños para otorgarte una bebida gratis en el mes de tu cumpleaños</p>
+                      <section class="fecha-nacimiento">
+                          <select name="mes" id="mes">
+                              <option value="" disabled selected>Mes</option>
+                              <option value="enero">Enero</option>
+                              <option value="febrero">Febrero</option>
+                              <option value="marzo">Marzo</option>
+                              <option value="abril">Abril</option>
+                              <option value="mayo">Mayo</option>
+                              <option value="junio">Junio</option>
+                              <option value="julio">Julio</option>
+                              <option value="agosto">Agosto</option>
+                              <option value="septiembre">Septiembre</option>
+                              <option value="octubre">Octubre</option>
+                              <option value="noviembre">Noviembre</option>
+                              <option value="diciembre">Diciembre</option>
+                          </select>
+          
+                          <select name="dia" id="dia">
+                              <option value="" disabled selected>Día</option>
+                              <!-- Generar días -->
+                              <script>
+                                  for (let i = 1; i <= 31; i++) {
+                                      document.write(`<option value="${i}">${i}</option>`);
+                                  }
+                              </script>
+                          </select>
+                      </section>
+          
+                      <!-- Starbucks Rewards -->
+                      <h3>Ingresa a Starbucks Rewards</h3>
+                      <p>Únete a Starbucks Rewards™ y disfruta de beneficios especiales.</p>
+                      <section class="radio-options">
+                          <label>
+                              <input type="radio" name="rewards" value="digital" checked>
+                              Quiero recibir una Starbucks Card digital instantánea
+                          </label>
+                          <label>
+                              <input type="radio" name="rewards" value="fisica">
+                              Quiero unirme con una Starbucks Card que ya tengo
+                          </label>
+                      </section>
+          
+                      <!-- Términos y Condiciones -->
+                      <h3>Términos y Condiciones</h3>
+                      <label>
+                          <input type="checkbox" name="novedades" value="yes">
+                          Deseo recibir novedades sobre productos y promociones
+                      </label>
+                      <label>
+                          <input type="checkbox" name="terminos" value="accepted" required>
+                          Acepto los <a href="#">Términos y Condiciones</a> y <a href="#">Aviso de Privacidad</a>
+                      </label>
+          
+                      <!-- Botón de Registrarse -->
+                      <button type="submit">Registrarme</button>
+                  </form>
+              </section>
+                </section>
+
+                <section class="serparte">
+                  <p>¡SER PARTE DE STARBUCKS REWARDS™ ES MUY FÁCIL!</p>
+                  </section>
+
+
+
+
+
+        <footer class="footer">
+                <section class="footer-enlaces">
+
+                  <section class="footer-seccion">
+                    <h3>Sobre nosotros</h3>
+                    <ol>
+                      <li><a href="#">Historias Starbucks</a></li>
+                    </ol>
+                  </section>
+                  <section class="footer-seccion2">
+                    <h3>Atención al cliente</h3>
+                    <ol>
+                        <section class="contactanos">
+                      <li><a href="#">Contáctanos</a></li>
+                      <li><a href="#">Facturas Electrónicas</a></li>
+                      <li><a href="#">Formas de comprar</a></li>
+                    </ol>
+                  </section>
+                </secciion>
+            </footer>
+            <footer class="footer2">
+                
+                <section class="social-media ">
+                    <a href="https://www.facebook.com/StarbucksMexico" class="icon"><img src="https://i.postimg.cc/brYN2gys/facebook-black-logo-icon-147136.webp" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/starbucksMex/" class="icon"><img src="https://i.postimg.cc/4dyHDXc8/4401407.png" alt="Instagram"></a>
+                    <a href="https://x.com/StarbucksMex" class="icon"><img src="https://i.postimg.cc/q7hGPf3x/png-transparent-x-icon-ex-twitter-tech-companies-social-media-thumbnail.png" alt="Twitter"></a>
+                    <a href="https://www.youtube.com/user/StarbucksMexico?app=desktop" class="icon"><img src="https://i.postimg.cc/pLdZWMKF/youtube-black-logo-icon-147044.webp" alt="YouTube"></a>
+                </section>
+            
+                <section class="footer-links">
+                  <a href="#">Accesibilidad web</a>
+                  <a href="#">Aviso de privacidad</a>
+                  <a href="#">Boletines</a>
+                  <a href="#">Condiciones de uso</a>
+                  <a href="#">Mapa de sitio</a>
+                  <a href="#">Preferencia sobre cookies</a>
+                </section>
+
+                <section class="footer-derechosreservados">
+                  <p>© 2022 Starbucks Coffee Company. Reservados todos los derechos</p>
+                </section>
+              </footer>
+
+            </section></section>
+  </body>
